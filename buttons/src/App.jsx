@@ -14,6 +14,7 @@ const App = () => {
 
   return (
     <div>
+      <div className='btn'>
       <Button
         buttonText="Button 1"
         buttonStyle="red"
@@ -24,6 +25,7 @@ const App = () => {
         buttonStyle="blue"
         onClick={handleClickButton2}
       />
+      </div>
       <Counter/>
     </div>
   );

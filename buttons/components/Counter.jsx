@@ -14,12 +14,13 @@ export default function Counter() {
     }
   return (
     <div className='counter'>
-    <h1>Counter</h1><br/>
-    <h1 id='up'  onClick={handleClick}>⏫</h1>
-    <h1 id='down' onClick={handleClick}>⏬</h1>
-    <h1>{value}</h1>
-    <h1 id='left' onClick={handleClick}>⏪</h1>
-    <h1 id='right' onClick={handleClick}>⏩</h1>
+    <h1 id='head'>Counter</h1>
+    <br/><br/><br/>
+    <button id='left' onClick={handleClick}>⏪</button>
+    <button id='up'  onClick={handleClick}>⏫</button>
+    <button id='down' onClick={handleClick}>⏬</button>
+    <button id='right' onClick={handleClick}>⏩</button>
+    <h1 id='value'>{value}</h1>
     </div>
   )
 }

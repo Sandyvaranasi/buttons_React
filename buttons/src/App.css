@@ -3,5 +3,67 @@
   padding: 3px;
   display: flex;
   flex-direction: row;
+  margin-left: 27vw;
+  margin-top: 2vh;
 }
 
+#up{
+  margin-top: 0;
+  font-size: 10vh;
+  height: 10vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#down{
+  margin-top: 25vh;
+  margin-left: -18vw;
+  font-size: 10vh;
+  height: 10vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#left{
+  margin-top: 12.5vh;
+  margin-bottom: 10vh;
+  margin-left: 0;
+  font-size: 10vh;
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#right{
+  margin-top: 12.5vh;
+  margin-left: 1px;
+  font-size: 10vh;
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#value{
+  margin-top: 14vh;
+  margin-left: -23vw;
+}
+
+#head{
+  position: absolute;
+  margin-left: 13vw;
+  margin-top: -10vh;
+}
+
+.btn{
+  margin-bottom: 10vh;
+  box-shadow: 5px 5px 10px grey;
+}
